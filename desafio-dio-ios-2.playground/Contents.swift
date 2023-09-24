@@ -1,3 +1,8 @@
-import UIKit
+let constantSteve = "Steve"
+var variableJobs: String? = "Jobs"
 
-var greeting = "Hello, playground"
+print(constantSteve, variableJobs ?? "Wozniak")
+
+if let variableDefault = variableJobs {
+    print(constantSteve, variableDefault)
+}
